@@ -1,0 +1,22 @@
+.box1{
+    background-color: aqua;
+    text-align: center;
+    height:200px;
+    width:200px;
+    margin : 50px;
+    border-radius: 50%;
+    border:6px solid rgb(25, 67, 116);
+    border-top:6px solid rgb(219, 22, 22);
+    animation:loader 2s ease 0s infinite ;
+}
+
+/* its a template for animation */
+
+@keyframes loader{
+    from{transform: rotate(0deg);}
+    to{
+       transform: rotate(360deg);
+        /* background-image: url(hello.avif);
+     background-size: cover; */
+}
+    }
